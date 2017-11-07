@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG new reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-responsive-testing-PoC2_by_groups">
+              <span class="suite-name border-passed">responsive-testing-PoC2 by groups</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-responsive-testing-PoC2_by_groups">
+                    <span>C:\Users\rmk\AppData\Local\Temp\testng-eclipse--1049108062\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-responsive-testing-PoC2_by_groups">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-responsive-testing-PoC2_by_groups">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-responsive-testing-PoC2_by_groups">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-responsive-testing-PoC2_by_groups">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-responsive-testing-PoC2_by_groups">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-responsive-testing-PoC2_by_groups">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-responsive-testing-PoC2_by_groups" class="hide-methods passed suite-responsive-testing-PoC2_by_groups"> (hide)</a> <!-- hide-methods passed suite-responsive-testing-PoC2_by_groups -->
+                      <a href="#" panel-name="suite-responsive-testing-PoC2_by_groups" class="show-methods passed suite-responsive-testing-PoC2_by_groups"> (show)</a> <!-- show-methods passed suite-responsive-testing-PoC2_by_groups -->
+                    </span>
+                    <div class="method-list-content passed suite-responsive-testing-PoC2_by_groups">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-responsive-testing-PoC2_by_groups" title="com.tivo.mavrik.guidedsetup.tests.WelcomePageTest" hash-for-method="getHomePageDump(Iphone6 375x667)">getHomePageDump(Iphone6 375x667)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-responsive-testing-PoC2_by_groups" title="com.tivo.mavrik.guidedsetup.tests.WelcomePageTest" hash-for-method="getHomePageDump(tablet 768x1024)">getHomePageDump(tablet 768x1024)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-responsive-testing-PoC2_by_groups" title="com.tivo.mavrik.guidedsetup.tests.WelcomePageTest" hash-for-method="getHomePageDump(Iphone6plus 412x732)">getHomePageDump(Iphone6plus 412x732)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-responsive-testing-PoC2_by_groups" title="com.tivo.mavrik.guidedsetup.tests.WelcomePageTest" hash-for-method="getHomePageDump(desktop 1920x959)">getHomePageDump(desktop 1920x959)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-responsive-testing-PoC2_by_groups -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-responsive-testing-PoC2_by_groups" class="panel responsive-testing-PoC2_by_groups">
+          <div class="suite-responsive-testing-PoC2_by_groups-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tivo.mavrik.guidedsetup.tests.WelcomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getHomePageDump(Iphone6 375x667)">
+                  </a> <!-- getHomePageDump(Iphone6 375x667) -->
+                  <span class="method-name">getHomePageDump</span>
+                  <span class="parameters">(Iphone6 375x667)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getHomePageDump(tablet 768x1024)">
+                  </a> <!-- getHomePageDump(tablet 768x1024) -->
+                  <span class="method-name">getHomePageDump</span>
+                  <span class="parameters">(tablet 768x1024)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getHomePageDump(Iphone6plus 412x732)">
+                  </a> <!-- getHomePageDump(Iphone6plus 412x732) -->
+                  <span class="method-name">getHomePageDump</span>
+                  <span class="parameters">(Iphone6plus 412x732)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getHomePageDump(desktop 1920x959)">
+                  </a> <!-- getHomePageDump(desktop 1920x959) -->
+                  <span class="method-name">getHomePageDump</span>
+                  <span class="parameters">(desktop 1920x959)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-responsive-testing-PoC2_by_groups-class-passed -->
+        </div> <!-- panel responsive-testing-PoC2_by_groups -->
+        <div panel-name="test-xml-responsive-testing-PoC2_by_groups" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rmk\AppData\Local\Temp\testng-eclipse--1049108062\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;responsive-testing-PoC2 by groups&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;GRP-createPageDump2&quot; preserve-order=&quot;true&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;createPageDump2&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tivo.mavrik.guidedsetup.tests.WelcomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GRP-createPageDump2 --&gt;
+&lt;/suite&gt; &lt;!-- responsive-testing-PoC2 by groups --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-responsive-testing-PoC2_by_groups" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for responsive-testing-PoC2 by groups</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GRP-createPageDump2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-responsive-testing-PoC2_by_groups" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for responsive-testing-PoC2 by groups</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">createPageDump2</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">getHomePageDump</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-responsive-testing-PoC2_by_groups" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for responsive-testing-PoC2 by groups</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_responsive-testing-PoC2_by_groups');
+function tableData_responsive-testing-PoC2_by_groups() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getHomePageDump')
+data.setCell(0, 2, 'com.tivo.mavrik.guidedsetup.tests.WelcomePageTest')
+data.setCell(0, 3, 19028);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getHomePageDump')
+data.setCell(1, 2, 'com.tivo.mavrik.guidedsetup.tests.WelcomePageTest')
+data.setCell(1, 3, 15753);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getHomePageDump')
+data.setCell(2, 2, 'com.tivo.mavrik.guidedsetup.tests.WelcomePageTest')
+data.setCell(2, 3, 14244);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getHomePageDump')
+data.setCell(3, 2, 'com.tivo.mavrik.guidedsetup.tests.WelcomePageTest')
+data.setCell(3, 3, 13524);
+window.suiteTableData['responsive-testing-PoC2_by_groups']= { tableData: data, tableDiv: 'times-div-responsive-testing-PoC2_by_groups'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-responsive-testing-PoC2_by_groups">
+              </div> <!-- times-div-responsive-testing-PoC2_by_groups -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-responsive-testing-PoC2_by_groups" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for responsive-testing-PoC2 by groups</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-responsive-testing-PoC2_by_groups" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.tivo.mavrik.guidedsetup.tests.WelcomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_Header_Footer_alignment</span>
+                <br/>
+                <span class="ignored-method-name">getShopProductPageDump</span>
+                <br/>
+                <span class="ignored-method-name">getProductCatalogPageDump</span>
+                <br/>
+                <span class="ignored-method-name">getCreateAccountPageDump</span>
+                <br/>
+                <span class="ignored-method-name">WelcomePage_validation</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-responsive-testing-PoC2_by_groups" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tivo.mavrik.guidedsetup.tests.WelcomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver([Ljava.lang.Object;@2b5cb9b2)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initReport(public void com.tivo.mavrik.guidedsetup.tests.WelcomePageTest.getHomePageDump(com.tivo.mavrik.guided...)</span>
+                <span class="method-start">4915 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getHomePageDump(tablet 768x1024)</span>
+                <span class="method-start">4922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">20675 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver([Ljava.lang.Object;@35038141)</span>
+                <span class="method-start">21259 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initReport(public void com.tivo.mavrik.guidedsetup.tests.WelcomePageTest.getHomePageDump(com.tivo.mavrik.guided...)</span>
+                <span class="method-start">27300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getHomePageDump(desktop 1920x959)</span>
+                <span class="method-start">27300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">46332 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver([Ljava.lang.Object;@ecf9049)</span>
+                <span class="method-start">46773 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initReport(public void com.tivo.mavrik.guidedsetup.tests.WelcomePageTest.getHomePageDump(com.tivo.mavrik.guided...)</span>
+                <span class="method-start">50721 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getHomePageDump(Iphone6plus 412x732)</span>
+                <span class="method-start">50721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">64975 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver([Ljava.lang.Object;@672f11c2)</span>
+                <span class="method-start">65405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initReport(public void com.tivo.mavrik.guidedsetup.tests.WelcomePageTest.getHomePageDump(com.tivo.mavrik.guided...)</span>
+                <span class="method-start">69481 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getHomePageDump(Iphone6 375x667)</span>
+                <span class="method-start">69481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">83015 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

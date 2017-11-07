@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [responsive-testing-PoC by groups]">
+  <test name="GRP-createPageDump1(failed)" preserve-order="true">
+    <groups>
+      <run>
+        <include name="createPageDump1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.tivo.mavrik.guidedsetup.tests.WelcomePageTest">
+        <methods>
+          <include name="initDriver"/>
+          <include name="getProductCatalogPageDump" invocation-numbers="0 1"/>
+          <include name="initReport"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.tivo.mavrik.guidedsetup.tests.WelcomePageTest -->
+    </classes>
+  </test> <!-- GRP-createPageDump1(failed) -->
+</suite> <!-- Failed suite [responsive-testing-PoC by groups] -->

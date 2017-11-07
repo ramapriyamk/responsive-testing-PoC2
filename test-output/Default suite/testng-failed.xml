@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.tivo.mavrik.guidedsetup.tests.CreateAccountPageTest">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="verifyCreateAccountPageElements"/>
+        </methods>
+      </class> <!-- com.tivo.mavrik.guidedsetup.tests.CreateAccountPageTest -->
+      <class name="com.tivo.mavrik.guidedsetup.tests.WelcomePageTest">
+        <methods>
+          <include name="verify_Header_Footer_alignment"/>
+          <include name="getShopProductPageDump"/>
+          <include name="initDriver"/>
+          <include name="getProductCatalogPageDump"/>
+          <include name="getCreateAccountPageDump"/>
+          <include name="quitDriver"/>
+          <include name="WelcomePage_validation"/>
+        </methods>
+      </class> <!-- com.tivo.mavrik.guidedsetup.tests.WelcomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

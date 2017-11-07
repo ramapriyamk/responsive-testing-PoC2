@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="responsive-testing-PoC2 by groups" duration-ms="83433" started-at="2017-10-18T21:18:19Z" finished-at="2017-10-18T21:19:43Z">
+    <groups>
+      <group name="createPageDump2">
+        <method signature="WelcomePageTest.getHomePageDump(com.tivo.mavrik.guidedsetup.tests.GalenTestBase$TestDevice)[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="getHomePageDump" class="com.tivo.mavrik.guidedsetup.tests.WelcomePageTest"/>
+      </group> <!-- createPageDump2 -->
+    </groups>
+    <test name="GRP-createPageDump2" duration-ms="83433" started-at="2017-10-18T21:18:19Z" finished-at="2017-10-18T21:19:43Z">
+      <class name="com.tivo.mavrik.guidedsetup.tests.WelcomePageTest">
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="initDriver" is-config="true" duration-ms="4915" started-at="2017-10-18T14:18:19Z" finished-at="2017-10-18T14:18:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2b5cb9b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="initReport" is-config="true" duration-ms="7" started-at="2017-10-18T14:18:24Z" finished-at="2017-10-18T14:18:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tivo.mavrik.guidedsetup.tests.WelcomePageTest.getHomePageDump(com.tivo.mavrik.guidedsetup.tests.GalenTestBase$TestDevice) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2b5cb9b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="getHomePageDump(com.tivo.mavrik.guidedsetup.tests.GalenTestBase$TestDevice)[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="getHomePageDump" duration-ms="15753" started-at="2017-10-18T14:18:24Z" description="Create Page dump of Welcome Page" data-provider="devices" finished-at="2017-10-18T14:18:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tablet 768x1024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomePageDump -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="quitDriver" is-config="true" duration-ms="584" started-at="2017-10-18T14:18:40Z" finished-at="2017-10-18T14:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="initDriver" is-config="true" duration-ms="6041" started-at="2017-10-18T14:18:40Z" finished-at="2017-10-18T14:18:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@35038141]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="initReport" is-config="true" duration-ms="0" started-at="2017-10-18T14:18:46Z" finished-at="2017-10-18T14:18:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tivo.mavrik.guidedsetup.tests.WelcomePageTest.getHomePageDump(com.tivo.mavrik.guidedsetup.tests.GalenTestBase$TestDevice) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@35038141]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="getHomePageDump(com.tivo.mavrik.guidedsetup.tests.GalenTestBase$TestDevice)[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="getHomePageDump" duration-ms="19028" started-at="2017-10-18T14:18:46Z" description="Create Page dump of Welcome Page" data-provider="devices" finished-at="2017-10-18T14:19:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[desktop 1920x959]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomePageDump -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="quitDriver" is-config="true" duration-ms="441" started-at="2017-10-18T14:19:05Z" finished-at="2017-10-18T14:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="initDriver" is-config="true" duration-ms="3948" started-at="2017-10-18T14:19:06Z" finished-at="2017-10-18T14:19:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@ecf9049]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="initReport" is-config="true" duration-ms="0" started-at="2017-10-18T14:19:10Z" finished-at="2017-10-18T14:19:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tivo.mavrik.guidedsetup.tests.WelcomePageTest.getHomePageDump(com.tivo.mavrik.guidedsetup.tests.GalenTestBase$TestDevice) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@ecf9049]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="getHomePageDump(com.tivo.mavrik.guidedsetup.tests.GalenTestBase$TestDevice)[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="getHomePageDump" duration-ms="14244" started-at="2017-10-18T14:19:10Z" description="Create Page dump of Welcome Page" data-provider="devices" finished-at="2017-10-18T14:19:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone6plus 412x732]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomePageDump -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="quitDriver" is-config="true" duration-ms="430" started-at="2017-10-18T14:19:24Z" finished-at="2017-10-18T14:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="initDriver([Ljava.lang.Object;)[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="initDriver" is-config="true" duration-ms="4076" started-at="2017-10-18T14:19:25Z" finished-at="2017-10-18T14:19:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@672f11c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initReport(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="initReport" is-config="true" duration-ms="0" started-at="2017-10-18T14:19:29Z" finished-at="2017-10-18T14:19:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tivo.mavrik.guidedsetup.tests.WelcomePageTest.getHomePageDump(com.tivo.mavrik.guidedsetup.tests.GalenTestBase$TestDevice) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@672f11c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="getHomePageDump(com.tivo.mavrik.guidedsetup.tests.GalenTestBase$TestDevice)[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="getHomePageDump" duration-ms="13524" started-at="2017-10-18T14:19:29Z" description="Create Page dump of Welcome Page" data-provider="devices" finished-at="2017-10-18T14:19:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone6 375x667]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomePageDump -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.tivo.mavrik.guidedsetup.tests.WelcomePageTest@18be83e4]" name="quitDriver" is-config="true" duration-ms="407" started-at="2017-10-18T14:19:42Z" finished-at="2017-10-18T14:19:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.tivo.mavrik.guidedsetup.tests.WelcomePageTest -->
+    </test> <!-- GRP-createPageDump2 -->
+  </suite> <!-- responsive-testing-PoC2 by groups -->
+</testng-results>

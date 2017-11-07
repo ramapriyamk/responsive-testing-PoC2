@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Create Account Page test">
+ <parameter name="browserType" value="chrome"/>
+  <test name="Chrome-Mavrik Welcome Page test">
+   <groups>
+    <run>
+     <include name ="createPageDump3" />
+    </run>
+   </groups>
+   <!--
+   <packages>
+			<package name="com.tivo.mavrik.guidedsetup.tests" />
+	</packages>
+	-->
+    <classes>
+      <class name="com.tivo.mavrik.guidedsetup.tests.WelcomePageTest"/>
+    </classes>
+  </test>  
+</suite>
